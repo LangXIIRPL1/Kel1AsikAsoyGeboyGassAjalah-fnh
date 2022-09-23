@@ -10,6 +10,7 @@ import datetime
 tanggal = datetime.datetime.now()
 alamat=input("Alamat : ")
 laporan=input("Laporan : ")
+jenis=input("Pilih Jenis Laporan [Kehilangan/Fasilitas Umum(FU)] :")
 
 print ("====================================================================")
 print ("NIK yang Anda Masukkan adalah : "+nik)
