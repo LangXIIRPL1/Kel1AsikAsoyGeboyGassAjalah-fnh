@@ -12,9 +12,9 @@ alamat=input("Alamat : ")
 notlp=input("Nomer Telepon : ")
 jenis=input("Pilih Jenis Laporan [Kehilangan/Fasilitas Umum(FU)] :")
 if jenis=="Kehilangan" or jenis=="kehilangan":   
-    hilang="Kehilangan"
-elif jenis=="Fasilitas Umum" or jenis=="FU":
-    fu="Fasilitas Umum"
+    jenis_laporan="Kehilangan"
+elif jenis=="Fasilitas Umum"or jenis=="fasilitas umum" or jenis=="fu" or jenis=="FU":
+    jenis_laporan="Fasilitas Umum"
 else:
     print("Tidak ada yang di pilih")
     
@@ -27,7 +27,7 @@ print("Tanggal Laporan :" , tanggal)
 # print("Tanggal yang Anda Masukkan adalah : "+tanggal)
 print("Alamat yang Anda Masukkan adalah : "+alamat)
 print("Nomer Telepon yang Anda Masukkan adalah : "+notlp)
-print("Jenis Laporan yang Anda Masukkan adalah : "+jenis)
+print("Jenis Laporan yang Anda Masukkan adalah : ",jenis_laporan)
 print("Isi Laporan yang Anda Masukkan adalah : "+isilaporan)
 print("====================================================================")
 
