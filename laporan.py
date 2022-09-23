@@ -28,7 +28,7 @@ print("Tanggal Laporan :" , tanggal)
 print("Alamat yang Anda Masukkan adalah : "+alamat)
 print("Nomer Telepon yang Anda Masukkan adalah : "+notlp)
 print("Masukan Jenis Laporan yang Anda Masukkan adalah : "+jenis)
-print("Laporan yang Anda Masukkan adalah : "+laporan)
+print("Isi Laporan yang Anda Masukkan adalah : "+isilaporan)
 print("====================================================================")
 
 check=input("""Tulis "Benar" jika input benar Tulis "Salah" Jika sebaliknya :""")
