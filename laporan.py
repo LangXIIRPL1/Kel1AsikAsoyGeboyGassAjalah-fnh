@@ -11,6 +11,10 @@ tanggal = datetime.datetime.now()
 alamat=input("Alamat : ")
 laporan=input("Laporan : ")
 jenis=input("Pilih Jenis Laporan [Kehilangan/Fasilitas Umum(FU)] :")
+if jenis=="Kehilangan" or jenis=="kehilangan":   
+    hilang="Kehilangan"
+elif jenis=="Fasilitas Umum" or jenis=="FU":
+    fu="Fasilitas Umum"
 
 print ("====================================================================")
 print ("NIK yang Anda Masukkan adalah : "+nik)
