@@ -27,7 +27,7 @@ print("Tanggal Laporan :" , tanggal)
 # print("Tanggal yang Anda Masukkan adalah : "+tanggal)
 print("Alamat yang Anda Masukkan adalah : "+alamat)
 print("Nomer Telepon yang Anda Masukkan adalah : "+notlp)
-print("Masukan Jenis Laporan yang Anda Masukkan adalah : "+jenis)
+print("Jenis Laporan yang Anda Masukkan adalah : "+jenis)
 print("Isi Laporan yang Anda Masukkan adalah : "+isilaporan)
 print("====================================================================")
 
